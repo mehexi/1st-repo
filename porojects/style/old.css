@@ -1,0 +1,233 @@
+* {
+  font-family: "Itim", cursive;
+}
+/* nav start */
+nav li {
+  list-style: none;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  position: absolute;
+  width: 348px;
+  height: 18px;
+  left: 127px;
+  top: 53px;
+}
+.middle {
+  position: absolute;
+  width: 200px;
+  height: 85px;
+  left: 620px;
+  top: 17px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+  position: absolute;
+  width: 176px;
+  height: 18px;
+  left: 1000px;
+  top: 53px;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 51px;
+
+  position: absolute;
+  width: 87px;
+  height: 18px;
+  left: 1226px;
+  top: 53px;
+}
+.icon img {
+  width: 18px;
+  height: 18px;
+}
+/* nav end */
+/* bannar */
+.banner-right {
+  position: absolute;
+  width: 600px;
+  height: 737px;
+  left: 120px;
+  top: 167px;
+  background-color: #cde5ef;
+}
+.banner-right h1 {
+  position: absolute;
+  width: 384px;
+  height: 354px;
+  left: 80px;
+  top: 145px;
+
+  font-family: "Aref Ruqaa Ink";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  color: #165888;
+}
+.banner-right h3 {
+  position: absolute;
+  width: 114px;
+  height: 24px;
+  left: 90px;
+  top: 150px;
+
+  font-family: "Itim";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #165888;
+}
+button {
+  position: absolute;
+  height: 70px;
+  width: 193px;
+  background-color: #165888;
+  border-radius: 2px;
+  border: 0px;
+  top: 587px;
+  left: 80px;
+  padding: 23px, 55px;
+
+  font-family: "itim";
+  font-family: "Andada Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}
+button:hover {
+  position: absolute;
+  height: 70px;
+  width: 193px;
+  background-color: #562592;
+  border-radius: 20 px;
+  border: 0px;
+  top: 587px;
+  left: 80px;
+  padding: 23px, 55px;
+}
+.banner-left {
+  position: absolute;
+  width: 600px;
+  height: 737px;
+  left: 720px;
+  top: 167px;
+  background-color: #f2f7f9;
+}
+.banner-left img {
+  position: absolute;
+  width: 408px;
+  height: 612px;
+  left: 97px;
+  top: 125px;
+}
+.banner-left span full {
+  position: absolute;
+  width: 364px;
+  height: 346px;
+  left: 47px;
+  top: 49px;
+  border-radius: 100%;
+
+  background: #cde5ef;
+}
+.full {
+  position: absolute;
+  width: 364px;
+  height: 346px;
+  left: 47px;
+  top: 49px;
+  border-radius: 100%;
+
+  background: #cde5ef;
+}
+.half {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 282px;
+  height: 282px;
+  left: 270px;
+  top: 166px;
+  border-radius: 100%;
+
+  border: 6px solid #cde5ef;
+}
+/* bannar */
+
+/* contant */
+h1 {
+  position: absolute;
+  width: 405px;
+  height: 74px;
+  left: 517px;
+  top: 1050px;
+
+  font-family: "Aref Ruqaa Ink";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 123.3%;
+  color: #165888;
+}
+h3 {
+  position: absolute;
+  width: 843px;
+  height: 124px;
+  left: 298px;
+  top: 1173px;
+
+  font-family: "Arvo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 123.3%;
+
+  text-align: center;
+
+  color: #165888;
+}
+/* collection */
+
+.collection {
+  position: absolute;
+  width: 1200px;
+  height: 687px;
+  left: 120px;
+  top: 1591px;
+
+  background: #cde5ef;
+}
+.collection h1 {
+  position: absolute;
+  width: 557px;
+  height: 62px;
+  left: 483px;
+  top: 1644px;
+
+  font-family: "Aref Ruqaa Ink";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 123.3%;
+
+  text-align: center;
+
+  color: #165888;
+}

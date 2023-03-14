@@ -1,0 +1,97 @@
+section nav li {
+  list-style: none;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0%;
+  gap: 60px;
+
+  position: absolute;
+  width: 348px;
+  height: 18px;
+  top: 52px;
+  left: 140px;
+}
+.col > img {
+  position: absolute;
+  width: 200px;
+  height: 85px;
+  left: 620px;
+  top: 17px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+  position: absolute;
+  width: 176px;
+  height: 18px;
+  left: 999px;
+  top: 53px;
+}
+.body-left {
+  position: absolute;
+  width: 600px;
+  height: 737px;
+  left: 120px;
+  top: 167px;
+  background-color: #cde5ef;
+}
+.body-left h3 {
+  position: absolute;
+  width: 114px;
+  height: 24px;
+  left: 80px;
+  top: 116px;
+
+  font-family: "Itim";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #165888;
+}
+.body-left h1 {
+  position: absolute;
+  width: 384px;
+  height: 354px;
+  left: 80px;
+  top: 145px;
+
+  font-family: "Aref Ruqaa Ink";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 123.3%;
+  /* or 118px */
+
+  color: #165888;
+}
+.body-left button {
+  color: #ffffff;
+
+  position: absolute;
+  width: 193px;
+  height: 70px;
+  left: 71px;
+  top: 587px;
+
+  background: #165888;
+  border-radius: 2px;
+
+  font-family: "Andada Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
